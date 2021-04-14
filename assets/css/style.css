@@ -40,7 +40,7 @@ form input {
 }
 
 form input:focus {
-    outline: 1.5px solid var(--primary-color);
+    outline: 3px solid var(--primary-color);
 }
 
 form button {
