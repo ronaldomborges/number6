@@ -20,7 +20,7 @@ form.addEventListener('submit', function (e) {
     const imc = getImc(peso, altura)
     const nivelImc = getNivelImc(imc)
 
-    const msg = `(${imc}) " ${nivelImc}"`
+    const msg = `(${imc}) ${nivelImc}`
     
     setResultado(msg, true)
 })
