@@ -53,6 +53,7 @@ form input:focus {
 
 form button {
     border: none;
+    border-radius: 20px;
     background: var(--primary-color);
     color: white;
     font-size: 18px;
