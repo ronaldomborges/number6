@@ -13,7 +13,7 @@ form.addEventListener('submit', function (e) {
     }
     if (!altura) {
         setResultado('Altura inválida', false)
-        alert("Use apenas números com potos(.) ao invés de vírgulas(,) Ex: 1.70")
+        alert("Use apenas números com pontos(.) ao invés de vírgulas(,) Ex: 1.70")
         return
     }
 
